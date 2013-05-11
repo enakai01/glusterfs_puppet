@@ -1,5 +1,6 @@
 import 'variables.pp'
 
+
 class glusterfs {
   ssh_authorized_key { 'vmhost01_key':
     name   => 'root@192.168.122.1',
