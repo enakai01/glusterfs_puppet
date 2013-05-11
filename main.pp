@@ -6,7 +6,7 @@ class glusterfs {
     ensure => 'present',
     user   => 'root',
     type   => 'ssh-rsa',
-    key    => '##Place your public key##',
+    key    => 'AAAAB3NzaC1yc2EAAAABIwAAAQEA0jFu0KkRd/OM/k/bv92Y84k4xpy5kC++8MUQJL0ACK8linbRsxKkqP2/+0WtwC/BvnUR5IgMC/+SuSXOjZweCVXRNT0HSpuvf5q+qyjxL5PRb2yf5Pt4toWONuO5dR88zh4XFSZK5HygrRF6oD/6j2XWGwjAA25umiKZSkuZXJbESdOQkIww8ZlWfs+ZhQCXNehKCfLuua3KS7DeCC2hm/1OHHp3+vt5JmN/Y3idQSrUqK23cCUew3Ndt3n4CVCsF9gqdHzz5KZs+eQrppNSiLIKziPmdWgRHcgE1n2jd7MR3Xx7UBawT1splLQRMB7wMiaVQRvDgH1zkpn1sTZYEQ==',
   }
 
   yumrepo { 'glusterfs_repo':
